@@ -64,9 +64,3 @@ def test_search_address(app):
     app.get(
         "/api/v1/address?latitude=15&longitude=16",
     )
-
-
-# improvements
-# use sentry for errors logging
-# use factory for unit test
-# use FastAPI CRUDrouter
