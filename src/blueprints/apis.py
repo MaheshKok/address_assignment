@@ -72,7 +72,3 @@ def get_address_view(address_id: int, db: Session = Depends(get_db)) -> Address:
 @address_router.get("/")
 async def root():
     return {"message": "This is public Endpoint!"}
-
-
-def register_json_routes(app):
-    pass
