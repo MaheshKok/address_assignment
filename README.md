@@ -1,12 +1,12 @@
-1. Install all dependencies using below command:
+1. Install all dependencies:
 pip install -r requirements.txt
 
 
-2. To Run the App
-use below command on Terminal::uvicorn src.main:app --reload
+2. To Run the App: 
+use command on Terminal::uvicorn src.main:app --reload
 
 
-3. To Access docs
+3. To Access docs: 
 https://localhost:8000/docs 
 
 
