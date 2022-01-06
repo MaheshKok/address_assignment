@@ -2,7 +2,6 @@ from sqlalchemy import Boolean
 from sqlalchemy import Column
 from sqlalchemy import Float
 from sqlalchemy import Integer
-from sqlalchemy.orm import validates
 
 from src.extensions.database import Base
 

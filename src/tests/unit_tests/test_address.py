@@ -61,8 +61,8 @@ def test_search_address(app):
             json=address_payload,
         )
 
-    response = app.get(
-        f"/api/v1/address?latitude=15&longitude=16",
+    app.get(
+        "/api/v1/address?latitude=15&longitude=16",
     )
 
 

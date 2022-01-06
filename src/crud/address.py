@@ -62,7 +62,7 @@ def create_address(address: AddressBase, db: Session = Depends(get_db)) -> Addre
         db.add(db_address)
         db.commit()
         db.refresh(db_address)
-    except Exception as e:
+    except Exception:
         db.rollback()
 
     return db_address
