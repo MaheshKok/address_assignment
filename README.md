@@ -14,12 +14,11 @@ https://localhost:8000/docs
 will return all the addresses whose latitude and longitude is less than or equal to whats specified in the query
 
 
-Note:
+[comment]: <> (Note:)
 This Project is black formatted, flake8 complaint and isort compatible
 
 
-# improvements
-# use sentry for errors logging
-# use factory for unit test
-# use FastAPI CRUDrouter
-
+# Improvements
+1. use sentry for errors logging
+2. use factory for unit test
+3. use FastAPI CRUDrouter
